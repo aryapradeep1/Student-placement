@@ -1,9 +1,10 @@
 import React from 'react'
+import NaviBar from './NaviBar'
 
 const AddStud = () => {
   return (
     <div>
-
+<NaviBar/>
       <div className="container mt-4">
         <div className="row">
           <div className="col-12">
