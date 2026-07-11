@@ -6,6 +6,7 @@ import './App.css'
 import AddStud from './components/AddStud'
 import Searchstd from './components/Searchstd'
 import DeleteStd from './components/DeleteStd'
+import ViewStud from './components/ViewStud'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <AddStud/>
       <Searchstd/>
       <DeleteStd/>
+      <ViewStud/>
     </>
   )
 }
