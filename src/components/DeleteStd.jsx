@@ -1,9 +1,10 @@
 import React from 'react'
+import NaviBar from './NaviBar'
 
 const DeleteStd = () => {
   return (
     <div>
-
+<NaviBar/>
 
         <div className="container">
             <div className="row">
